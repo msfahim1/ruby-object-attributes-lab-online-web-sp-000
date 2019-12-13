@@ -11,4 +11,5 @@ def name
   @this_dogs_name
 end
 end
-kanye.instance_variable_set(:@name, "Fido")
+Fido = Dog.new
+Dog.(:@name, "Fido")

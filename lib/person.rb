@@ -13,7 +13,17 @@ class Person
   end
 
 
+  def job(jobx)
+  @job = jobx
+  end
 
+  def job
+  @job
+  end
+
+  def job=(jobx)
+  @job = jobx
+  end
 
 
 
